@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D93A4091E1D00C2009BF4FA /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D93A4081E1D00C2009BF4FA /* CoreDataTableViewController.m */; };
+		6DC0E1F21D9D371A006B06C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0E1F11D9D371A006B06C1 /* main.m */; };
+		6DC0E1F51D9D371A006B06C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0E1F41D9D371A006B06C1 /* AppDelegate.m */; };
+		6DC0E1FB1D9D371A006B06C1 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC0E1F91D9D371A006B06C1 /* iPhone.storyboard */; };
+		6DC0E1FE1D9D371A006B06C1 /* TagTheBus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0E1FC1D9D371A006B06C1 /* TagTheBus.xcdatamodeld */; };
+		6DC0E2001D9D371A006B06C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC0E1FF1D9D371A006B06C1 /* Assets.xcassets */; };
+		6DC0E2031D9D371A006B06C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC0E2011D9D371A006B06C1 /* LaunchScreen.storyboard */; };
+		6DC0E20C1D9D3794006B06C1 /* SegmentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0E20B1D9D3794006B06C1 /* SegmentedViewController.m */; };
+		6DC0E20E1D9D3806006B06C1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DC0E20D1D9D3806006B06C1 /* MapKit.framework */; };
+		6DC0E2171D9D3F1A006B06C1 /* Station+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0E2101D9D3F1A006B06C1 /* Station+CoreDataProperties.m */; };
+		6DC0E2181D9D3F1A006B06C1 /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0E2121D9D3F1A006B06C1 /* Station.m */; };
+		6DC0E2191D9D3F1A006B06C1 /* Photo+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0E2141D9D3F1A006B06C1 /* Photo+CoreDataProperties.m */; };
+		6DC0E21A1D9D3F1A006B06C1 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0E2161D9D3F1A006B06C1 /* Photo.m */; };
+		6DC0E21E1D9D4170006B06C1 /* Station+Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0E21D1D9D4170006B06C1 /* Station+Annotation.m */; };
+		6DC0E2201D9D4203006B06C1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DC0E21F1D9D4203006B06C1 /* CoreLocation.framework */; };
+		6DC0E2361D9EBB09006B06C1 /* BarcelonaAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0E2351D9EBB09006B06C1 /* BarcelonaAPI.m */; };
+		6DEA0A1B1DADC37B0033393F /* StationsCDTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEA0A1A1DADC37B0033393F /* StationsCDTVC.m */; };
+		6DF4D5D81DA162180059C7A1 /* HeapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF4D5D71DA162180059C7A1 /* HeapAnnotation.m */; };
+		6DF4D5E61DA23A510059C7A1 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF4D5E51DA23A510059C7A1 /* MapViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D93A4071E1D00C2009BF4FA /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		6D93A4081E1D00C2009BF4FA /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		6D93A40A1E1D010A009BF4FA /* StationsCDTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationsCDTVC.h; sourceTree = "<group>"; };
+		6DC0E1ED1D9D371A006B06C1 /* TagTheBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TagTheBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DC0E1F11D9D371A006B06C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6DC0E1F31D9D371A006B06C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6DC0E1F41D9D371A006B06C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6DC0E1FA1D9D371A006B06C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/iPhone.storyboard; sourceTree = "<group>"; };
+		6DC0E1FD1D9D371A006B06C1 /* TagTheBus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TagTheBus.xcdatamodel; sourceTree = "<group>"; };
+		6DC0E1FF1D9D371A006B06C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DC0E2021D9D371A006B06C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DC0E2041D9D371A006B06C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DC0E20A1D9D3794006B06C1 /* SegmentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentedViewController.h; sourceTree = "<group>"; };
+		6DC0E20B1D9D3794006B06C1 /* SegmentedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentedViewController.m; sourceTree = "<group>"; };
+		6DC0E20D1D9D3806006B06C1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6DC0E20F1D9D3F1A006B06C1 /* Station+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Station+CoreDataProperties.h"; sourceTree = "<group>"; };
+		6DC0E2101D9D3F1A006B06C1 /* Station+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Station+CoreDataProperties.m"; sourceTree = "<group>"; };
+		6DC0E2111D9D3F1A006B06C1 /* Station.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Station.h; sourceTree = "<group>"; };
+		6DC0E2121D9D3F1A006B06C1 /* Station.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Station.m; sourceTree = "<group>"; };
+		6DC0E2131D9D3F1A006B06C1 /* Photo+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Photo+CoreDataProperties.h"; sourceTree = "<group>"; };
+		6DC0E2141D9D3F1A006B06C1 /* Photo+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Photo+CoreDataProperties.m"; sourceTree = "<group>"; };
+		6DC0E2151D9D3F1A006B06C1 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		6DC0E2161D9D3F1A006B06C1 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		6DC0E21C1D9D4170006B06C1 /* Station+Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Station+Annotation.h"; sourceTree = "<group>"; };
+		6DC0E21D1D9D4170006B06C1 /* Station+Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Station+Annotation.m"; sourceTree = "<group>"; };
+		6DC0E21F1D9D4203006B06C1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6DC0E2341D9EBB09006B06C1 /* BarcelonaAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcelonaAPI.h; sourceTree = "<group>"; };
+		6DC0E2351D9EBB09006B06C1 /* BarcelonaAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarcelonaAPI.m; sourceTree = "<group>"; };
+		6DC0E2371D9FC85B006B06C1 /* StationDbNotifications.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StationDbNotifications.h; sourceTree = "<group>"; };
+		6DEA0A1A1DADC37B0033393F /* StationsCDTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationsCDTVC.m; sourceTree = "<group>"; };
+		6DF4D5D61DA162180059C7A1 /* HeapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeapAnnotation.h; sourceTree = "<group>"; };
+		6DF4D5D71DA162180059C7A1 /* HeapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeapAnnotation.m; sourceTree = "<group>"; };
+		6DF4D5E41DA23A510059C7A1 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		6DF4D5E51DA23A510059C7A1 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DC0E1EA1D9D371A006B06C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC0E2201D9D4203006B06C1 /* CoreLocation.framework in Frameworks */,
+				6DC0E20E1D9D3806006B06C1 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DC0E1E41D9D371A006B06C1 = {
+			isa = PBXGroup;
+			children = (
+				6DC0E1EF1D9D371A006B06C1 /* TagTheBus */,
+				6DC0E1EE1D9D371A006B06C1 /* Products */,
+				6DC0E21F1D9D4203006B06C1 /* CoreLocation.framework */,
+				6DC0E20D1D9D3806006B06C1 /* MapKit.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		6DC0E1EE1D9D371A006B06C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DC0E1ED1D9D371A006B06C1 /* TagTheBus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DC0E1EF1D9D371A006B06C1 /* TagTheBus */ = {
+			isa = PBXGroup;
+			children = (
+				6D93A4071E1D00C2009BF4FA /* CoreDataTableViewController.h */,
+				6D93A4081E1D00C2009BF4FA /* CoreDataTableViewController.m */,
+				6DC0E1F31D9D371A006B06C1 /* AppDelegate.h */,
+				6DC0E1F41D9D371A006B06C1 /* AppDelegate.m */,
+				6DC0E1F91D9D371A006B06C1 /* iPhone.storyboard */,
+				6DC0E20A1D9D3794006B06C1 /* SegmentedViewController.h */,
+				6DC0E20B1D9D3794006B06C1 /* SegmentedViewController.m */,
+				6DC0E2371D9FC85B006B06C1 /* StationDbNotifications.h */,
+				6DF4D5E41DA23A510059C7A1 /* MapViewController.h */,
+				6DF4D5E51DA23A510059C7A1 /* MapViewController.m */,
+				6DF4D5D61DA162180059C7A1 /* HeapAnnotation.h */,
+				6DF4D5D71DA162180059C7A1 /* HeapAnnotation.m */,
+				6D93A40A1E1D010A009BF4FA /* StationsCDTVC.h */,
+				6DEA0A1A1DADC37B0033393F /* StationsCDTVC.m */,
+				6DC0E21B1D9D3F24006B06C1 /* Core Data Model */,
+				6DC0E1F01D9D371A006B06C1 /* Supporting Files */,
+			);
+			path = TagTheBus;
+			sourceTree = "<group>";
+		};
+		6DC0E1F01D9D371A006B06C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DC0E2041D9D371A006B06C1 /* Info.plist */,
+				6DC0E2011D9D371A006B06C1 /* LaunchScreen.storyboard */,
+				6DC0E1FF1D9D371A006B06C1 /* Assets.xcassets */,
+				6DC0E1F11D9D371A006B06C1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DC0E21B1D9D3F24006B06C1 /* Core Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				6DC0E2341D9EBB09006B06C1 /* BarcelonaAPI.h */,
+				6DC0E2351D9EBB09006B06C1 /* BarcelonaAPI.m */,
+				6DC0E1FC1D9D371A006B06C1 /* TagTheBus.xcdatamodeld */,
+				6DC0E21C1D9D4170006B06C1 /* Station+Annotation.h */,
+				6DC0E21D1D9D4170006B06C1 /* Station+Annotation.m */,
+				6DC0E20F1D9D3F1A006B06C1 /* Station+CoreDataProperties.h */,
+				6DC0E2101D9D3F1A006B06C1 /* Station+CoreDataProperties.m */,
+				6DC0E2111D9D3F1A006B06C1 /* Station.h */,
+				6DC0E2121D9D3F1A006B06C1 /* Station.m */,
+				6DC0E2131D9D3F1A006B06C1 /* Photo+CoreDataProperties.h */,
+				6DC0E2141D9D3F1A006B06C1 /* Photo+CoreDataProperties.m */,
+				6DC0E2151D9D3F1A006B06C1 /* Photo.h */,
+				6DC0E2161D9D3F1A006B06C1 /* Photo.m */,
+			);
+			name = "Core Data Model";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DC0E1EC1D9D371A006B06C1 /* TagTheBus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DC0E2071D9D371A006B06C1 /* Build configuration list for PBXNativeTarget "TagTheBus" */;
+			buildPhases = (
+				6DC0E1E91D9D371A006B06C1 /* Sources */,
+				6DC0E1EA1D9D371A006B06C1 /* Frameworks */,
+				6DC0E1EB1D9D371A006B06C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TagTheBus;
+			productName = TagTheBus;
+			productReference = 6DC0E1ED1D9D371A006B06C1 /* TagTheBus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DC0E1E51D9D371A006B06C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Victor Vostriakov";
+				TargetAttributes = {
+					6DC0E1EC1D9D371A006B06C1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 777Z6P4DEN;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 6DC0E1E81D9D371A006B06C1 /* Build configuration list for PBXProject "TagTheBus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DC0E1E41D9D371A006B06C1;
+			productRefGroup = 6DC0E1EE1D9D371A006B06C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DC0E1EC1D9D371A006B06C1 /* TagTheBus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DC0E1EB1D9D371A006B06C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC0E2031D9D371A006B06C1 /* LaunchScreen.storyboard in Resources */,
+				6DC0E2001D9D371A006B06C1 /* Assets.xcassets in Resources */,
+				6DC0E1FB1D9D371A006B06C1 /* iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DC0E1E91D9D371A006B06C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC0E1FE1D9D371A006B06C1 /* TagTheBus.xcdatamodeld in Sources */,
+				6DC0E2171D9D3F1A006B06C1 /* Station+CoreDataProperties.m in Sources */,
+				6D93A4091E1D00C2009BF4FA /* CoreDataTableViewController.m in Sources */,
+				6DC0E2181D9D3F1A006B06C1 /* Station.m in Sources */,
+				6DEA0A1B1DADC37B0033393F /* StationsCDTVC.m in Sources */,
+				6DF4D5E61DA23A510059C7A1 /* MapViewController.m in Sources */,
+				6DC0E2191D9D3F1A006B06C1 /* Photo+CoreDataProperties.m in Sources */,
+				6DC0E2361D9EBB09006B06C1 /* BarcelonaAPI.m in Sources */,
+				6DF4D5D81DA162180059C7A1 /* HeapAnnotation.m in Sources */,
+				6DC0E21A1D9D3F1A006B06C1 /* Photo.m in Sources */,
+				6DC0E21E1D9D4170006B06C1 /* Station+Annotation.m in Sources */,
+				6DC0E1F51D9D371A006B06C1 /* AppDelegate.m in Sources */,
+				6DC0E1F21D9D371A006B06C1 /* main.m in Sources */,
+				6DC0E20C1D9D3794006B06C1 /* SegmentedViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6DC0E1F91D9D371A006B06C1 /* iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DC0E1FA1D9D371A006B06C1 /* Base */,
+			);
+			name = iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		6DC0E2011D9D371A006B06C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DC0E2021D9D371A006B06C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DC0E2051D9D371A006B06C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6DC0E2061D9D371A006B06C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DC0E2081D9D371A006B06C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TagTheBus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vic.TagTheBus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6DC0E2091D9D371A006B06C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TagTheBus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vic.TagTheBus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DC0E1E81D9D371A006B06C1 /* Build configuration list for PBXProject "TagTheBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC0E2051D9D371A006B06C1 /* Debug */,
+				6DC0E2061D9D371A006B06C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DC0E2071D9D371A006B06C1 /* Build configuration list for PBXNativeTarget "TagTheBus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC0E2081D9D371A006B06C1 /* Debug */,
+				6DC0E2091D9D371A006B06C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6DC0E1FC1D9D371A006B06C1 /* TagTheBus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6DC0E1FD1D9D371A006B06C1 /* TagTheBus.xcdatamodel */,
+			);
+			currentVersion = 6DC0E1FD1D9D371A006B06C1 /* TagTheBus.xcdatamodel */;
+			path = TagTheBus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6DC0E1E51D9D371A006B06C1 /* Project object */;
+}
