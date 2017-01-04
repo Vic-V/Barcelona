@@ -1,17 +1,22 @@
-"TagTheBus" is a just a part of bigger application (iOS7 was a requirement).
+"TagTheBus" is just a REST/JSON part of other application.
 
-It works with REST API of Barcelona public transport.
+It presents the public transport data - bus stops, metro station, etc.
 ("Barcelona urban mobility API REST": http://barcelonaapi.marcpous.com)
 
-The application design includs : reactive UI, real-time updates, work in low connectivity situations
+The application design provides : non-blocking UI, real-time updates, work in low connectivity situations
 
-1. (at first time or if modified) downloads stations data (JSON) from internet in backgroundSessions
-2. saves station data to local database (with CoreData)
-3. notifies and updates TableView / MapView 
-
-4. in background, using timer, it connects to internet just to check if JSON is modified
+Sceleton:
+1. (at first lounch or if modified) stations (JSON) are downloaded from internet in background sessions
+2. recieved stations are saved into local database (CoreData)
+3. UI (TableView / MapView) is notified and updated as new data arrives 
+4. in background, the timer periodically connects to internet just to check if server data is modified
    Status: it looks like http://barcelonaapi.marcpous.com is not RESTful,
    (no hash, it ignores HTTPHeaderField:@"If-Modified-Since", and never send back code 304)
   so this part is commented
+5. Lounched next time, TagTheBus loads station data from local database.
 
-Lounching next time, TagTheBus loads station data from local database.
+UI:
+* MapView with standard annotation pins of 3 color and non-standerd grouping pins
+* Disclosure button on standard pin does nothing
+* Disclosure button on non-standerd grouping pins zooms to show this group
+* TableView sectioned by transport, provides station name, lines numbers
