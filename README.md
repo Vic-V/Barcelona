@@ -19,4 +19,4 @@ UI:
 * MapView with standard annotation pins of 3 color and non-standerd grouping pins
 * Disclosure button on standard pin does nothing
 * Disclosure button on non-standerd grouping pins zooms to show this group
-* TableView sectioned by transport, provides station name, lines numbers
+* TableView sectioned by transport, provides station name, line names
