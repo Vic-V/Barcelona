@@ -6,14 +6,14 @@ It presents the public transport data - bus stops, metro station, etc.
 The application design provides : non-blocking UI, real-time updates, work in low connectivity situations
 
 Sceleton:
-1. (at first lounch or if modified) stations (JSON) are downloaded from internet in background sessions
-2. recieved stations are saved into local database (CoreData)
-3. UI (TableView / MapView) is notified and updated as new data arrives 
-4. in background, the timer periodically connects to internet just to check if server data is modified
+* (at first lounch or if modified) stations (JSON) are downloaded from internet in background sessions
+* recieved stations are saved into local database (CoreData)
+* UI (TableView / MapView) is notified and updated as new data arrives 
+* in background, the timer periodically connects to internet just to check if server data is modified
    Status: it looks like http://barcelonaapi.marcpous.com is not RESTful,
    (no hash, it ignores HTTPHeaderField:@"If-Modified-Since", and never send back code 304)
   so this part is commented
-5. Lounched next time, TagTheBus loads station data from local database.
+* Lounched next time, TagTheBus loads station data from local database.
 
 UI:
 * MapView with standard annotation pins of 3 color and non-standerd grouping pins
