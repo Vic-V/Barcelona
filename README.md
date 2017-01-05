@@ -3,7 +3,7 @@
 It presents the public transport data - bus stops, metro station, etc.
 ("Barcelona urban mobility API REST": http://barcelonaapi.marcpous.com)
 
-The application design provides : non-blocking UI, real-time updates, work in low connectivity situations
+The application design provides : responsive UI, real-time updates, work in low connectivity situations
 
 Sceleton:
 * (at first lounch or if modified) stations (JSON) are downloaded from internet in background sessions
